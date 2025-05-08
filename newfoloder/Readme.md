@@ -29,3 +29,22 @@
 ## Stashing
 
 ## Merging
+
+# Copilot
+**Ctrl+Shift+P** for command palette    
+Common **inline cmd** slash commands:
+- `/explain` - Provides an explanation of the selected code.
+- `/suggest` - Offers code suggestions based on the current context.
+- `/tests` - Generates unit tests for the selected function or class.
+- `/comment` - Converts comments into code snippets.
+
+### Comments to code
+You can describe the functionality that you want in a comment. When you select the `Enter` key, Copilot generates code based on your description.  <br><br>
+**Multiple Suggestions** - For complex code snippets, Copilot can offer multiple alternatives.  
+- When Copilot offers a suggestion, look for the light bulb icon.  
+- Select the icon or use `Alt+]` to cycle through alternatives.
+### Automated Test Generation
+* Select a function or class.
+* Use the command palette to select Copilot: Generate Unit Tests.
+* Review the test cases that Copilot suggests for your code.
+
